@@ -1,0 +1,19 @@
+<div class="outer"
+     *ngFor="let i of pyramid, let idx=index">
+  <span [ngClass]="idx==0 ? 'chain1' :
+
+                  idx==1 ? 'chain2' :
+
+                  idx==2 ? 'chain3' :
+
+                  idx==3 ? 'chain4' : 
+
+                  'chain5' "
+        *ngFor="let animal of i, let first=first, let last=last">
+    {{animal.name}}
+    -
+    {{animal.animalType}}
+    <img class="img" src="{{animal.profileImageUrl}}" align="middle">
+
+  </span>
+</div>

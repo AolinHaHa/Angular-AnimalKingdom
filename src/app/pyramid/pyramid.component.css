@@ -1,0 +1,41 @@
+.img {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+}
+
+.outer {
+  text-align:center;
+  padding: 20px;
+}
+
+.chain1 {
+  font-size: 100%;
+  color: darkgray;
+  padding: 20px;
+}
+
+.chain2 {
+  font-size: 100%;
+  color: darkgray;
+  padding: 20px;
+
+}
+
+.chain3 {
+  font-size: 100%;
+  color: darkgray;
+  padding: 20px;
+}
+
+.chain4 {
+  font-size: 100%;
+  color: darkgray;
+  padding: 20px;
+}
+
+.chain5 {
+  font-size: 100%;
+  color: darkgray;
+  padding: 20px;
+}
