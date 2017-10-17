@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PyramidRow } from '../pyramid-rows/pyramid-row.service';
-import { Animal } from '../pyramid-rows/Animal.model';
+import { Animal } from '../Animal.model';
 @Component({
   templateUrl: './pyramid.component.html',
   styleUrls: ['./pyramid.component.css'],
